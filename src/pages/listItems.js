@@ -11,6 +11,56 @@ import LayersIcon from '@material-ui/icons/Layers'
 import AssignmentIcon from '@material-ui/icons/Assignment'
 import { Link } from 'react-router-dom'
 export const mainListItems = (
+  // <div>
+  //   <ListItem button>
+  //     <ListItemIcon>
+  //       <DashboardIcon />
+  //     </ListItemIcon>
+  //     <ListItemText primary='Dashboard' />
+  //   </ListItem>
+  //   <ListItem button>
+  //     <ListItemIcon>
+  //       <ShoppingCartIcon />
+  //     </ListItemIcon>
+  //     <Link to='/customers'>
+  //       {' '}
+  //       <ListItemText primary='Customers' />
+  //     </Link>
+  //   </ListItem>
+  //   <ListItem button>
+  //     <ListItemIcon>
+  //       <PeopleIcon />
+  //     </ListItemIcon>
+  //     <Link to='/products'>
+  //       <ListItemText primary='Product' />
+  //     </Link>
+  //   </ListItem>
+  //   <ListItem button>
+  //     <ListItemIcon>
+  //       <BarChartIcon />
+  //     </ListItemIcon>
+  //     <Link to='/suppliers'>
+  //       <ListItemText primary='Suppliers' />
+  //     </Link>
+  //   </ListItem>
+  //   <ListItem button>
+  //     <ListItemIcon>
+  //       <LayersIcon />
+  //     </ListItemIcon>
+  //     <Link to='/distributors'>
+  //       <ListItemText primary='Distributor' />
+  //     </Link>
+  //   </ListItem>
+  //   <ListItem button>
+  //     <ListItemIcon>
+  //       <LayersIcon />
+  //     </ListItemIcon>
+  //     <Link to='/diocese'>
+  //       <ListItemText primary='Diocese' />
+  //     </Link>
+  //   </ListItem>
+  // </div>
+
   <div>
     <ListItem button>
       <ListItemIcon>
@@ -22,7 +72,7 @@ export const mainListItems = (
       <ListItemIcon>
         <ShoppingCartIcon />
       </ListItemIcon>
-      <Link to='/customers'>
+      <Link to='/customers' style={{ textDecoration: 'none' }}>
         {' '}
         <ListItemText primary='Customers' />
       </Link>
@@ -31,7 +81,7 @@ export const mainListItems = (
       <ListItemIcon>
         <PeopleIcon />
       </ListItemIcon>
-      <Link to='/products'>
+      <Link to='/products' style={{ textDecoration: 'none' }}>
         <ListItemText primary='Product' />
       </Link>
     </ListItem>
@@ -39,7 +89,7 @@ export const mainListItems = (
       <ListItemIcon>
         <BarChartIcon />
       </ListItemIcon>
-      <Link to='/suppliers'>
+      <Link to='/suppliers' style={{ textDecoration: 'none' }}>
         <ListItemText primary='Suppliers' />
       </Link>
     </ListItem>
@@ -47,7 +97,7 @@ export const mainListItems = (
       <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
-      <Link to='/distributors'>
+      <Link to='/distributors' style={{ textDecoration: 'none' }}>
         <ListItemText primary='Distributor' />
       </Link>
     </ListItem>
@@ -55,7 +105,7 @@ export const mainListItems = (
       <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
-      <Link to='/diocese'>
+      <Link to='/diocese' style={{ textDecoration: 'none' }}>
         <ListItemText primary='Diocese' />
       </Link>
     </ListItem>
