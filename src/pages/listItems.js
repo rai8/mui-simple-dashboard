@@ -9,7 +9,7 @@ import PeopleIcon from '@material-ui/icons/People'
 import BarChartIcon from '@material-ui/icons/BarChart'
 import LayersIcon from '@material-ui/icons/Layers'
 import AssignmentIcon from '@material-ui/icons/Assignment'
-
+import { Link } from 'react-router-dom'
 export const mainListItems = (
   <div>
     <ListItem button>
@@ -22,31 +22,42 @@ export const mainListItems = (
       <ListItemIcon>
         <ShoppingCartIcon />
       </ListItemIcon>
-      <ListItemText primary='Customers' />
+      <Link to='/customers'>
+        {' '}
+        <ListItemText primary='Customers' />
+      </Link>
     </ListItem>
     <ListItem button>
       <ListItemIcon>
         <PeopleIcon />
       </ListItemIcon>
-      <ListItemText primary='Product' />
+      <Link to='/products'>
+        <ListItemText primary='Product' />
+      </Link>
     </ListItem>
     <ListItem button>
       <ListItemIcon>
         <BarChartIcon />
       </ListItemIcon>
-      <ListItemText primary='Suppliers' />
+      <Link to='/suppliers'>
+        <ListItemText primary='Suppliers' />
+      </Link>
     </ListItem>
     <ListItem button>
       <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
-      <ListItemText primary='Distributor' />
+      <Link to='/distributors'>
+        <ListItemText primary='Distributor' />
+      </Link>
     </ListItem>
     <ListItem button>
       <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
-      <ListItemText primary='Diocese' />
+      <Link to='/diocese'>
+        <ListItemText primary='Diocese' />
+      </Link>
     </ListItem>
   </div>
 )
