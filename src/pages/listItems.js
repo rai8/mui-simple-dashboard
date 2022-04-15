@@ -66,7 +66,9 @@ export const mainListItems = (
       <ListItemIcon>
         <DashboardIcon />
       </ListItemIcon>
-      <ListItemText primary='Dashboard' />
+      <Link to='/' style={{ textDecoration: 'none' }}>
+        <ListItemText primary='Dashboard' />
+      </Link>
     </ListItem>
     <ListItem button>
       <ListItemIcon>

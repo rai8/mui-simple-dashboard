@@ -1,7 +1,14 @@
+import { Typography } from '@material-ui/core'
 import React from 'react'
 
 function Supplier() {
-  return <div>Supplier</div>
+  return (
+    <>
+      <div>
+        <Typography>My Supplier</Typography>
+      </div>
+    </>
+  )
 }
 
 export default Supplier

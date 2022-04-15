@@ -6,6 +6,7 @@ import Diocese from './pages/Diocese'
 import { Routes, Route } from 'react-router-dom'
 import LayoutNav from './components/LayoutNav'
 import Product from './pages/Product'
+import Customers from './pages/Customers'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<LayoutNav />}>
           <Route index element={<Dashboard />} />
           <Route path='/distributors' element={<Distributors />} />
+          <Route path='/customers' element={<Customers />} />
           <Route path='/diocese' element={<Diocese />} />
           <Route path='/suppliers' element={<Supplier />} />
           <Route path='/products' element={<Product />} />

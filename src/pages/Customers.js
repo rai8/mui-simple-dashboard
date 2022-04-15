@@ -1,14 +1,14 @@
 import { Typography } from '@material-ui/core'
 import React from 'react'
 
-function Product() {
+const Customers = () => {
   return (
     <>
       <div>
-        <Typography>My product</Typography>
+        <Typography>My Customers</Typography>
       </div>
     </>
   )
 }
 
-export default Product
+export default Customers
